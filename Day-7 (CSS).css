@@ -1,0 +1,109 @@
+/* Hover state:
+          Pointing the cursor on the button
+*/
+
+button:hover{
+     color: white;
+     background-color: black;
+     cursor: pointer;
+}
+
+/* Active state::after
+      >> When we hold left key of the mouse it will
+      be in active state
+*/
+
+button:active{
+     border: 10px solid red;
+}
+
+/* Focus state: 
+      >> Indicating you already visited that 
+      button/ or opened or clicked the button
+*/
+
+button:focus{
+    background-color: pink;
+    color: white;
+}
+
+/* anchor un-visited link state */
+a:link{
+    color: red;
+}
+
+a:visited{
+    color: green;
+}
+
+a:hover{
+    cursor: progress;
+}
+
+span{
+    padding: 8px;
+    margin: 8px;
+    background-color: yellow;
+}
+/* First child */
+sapn:first-child{
+       background-color: red;
+}
+
+/* last child */
+span:last-child{
+    background-color: red;
+}
+
+/* nth child (eg 3rd child) */
+span:nth-child(3){
+    background-color: red;
+}
+
+/* Style for even child number */
+span:nth-child(even){
+    background-color: aqua;
+}
+
+/* Psedo elements :: before */
+h1::before{
+    content: "hello ";
+    background-color: black;
+    color: white;
+}
+
+/* Psedo elements :: after */
+h1::after{
+    content: " g'morning";
+}
+
+.shape{
+    margin: 100px;
+    width: 150px;
+    height: 150px;
+    background-color: black;
+    border-radius: 50%;
+    position: relative;
+}
+
+.shape::before{
+    content: " ";
+    width: 80px;
+    height: 80px;
+    background-color: yellow;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 50%;
+}
+
+.shape::after{
+    content: " ";
+    width: 80px;
+    height: 80px;
+    background-color: yellow;
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-radius: 50%;
+}

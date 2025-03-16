@@ -1,0 +1,74 @@
+
+/* 1. Element section */
+ h2{
+    color: yellow;
+    background-color: black;
+} 
+
+ p{
+    color: aqua;
+    background-color: black;
+} 
+
+/* 2. Element section list */
+ h2, p{
+    color: aqua;
+    background-color: black;
+}   
+
+/* 3. Universal selector */
+ *{
+    color: aqua;
+    background-color: black;
+ }  
+
+ /* 4. ID selector */
+ #h2SELECTOR3{
+    color: aqua;
+    background-color: black;
+    border: 2px dotted red;
+ } 
+
+ /* 5. Class selector */
+ .h2css{
+    color: aqua;
+    background-color: black;
+    border: 2px dotted red;
+    width: 20%;
+    height: 50%;
+ }  
+
+ /* 6. Descendant selection */
+ li a{
+    color: aqua;
+    background-color: black;
+    border: 2px dotted red;
+    width: 20%;
+    height: 50%;
+ }
+
+ b i{
+    color: aqua;
+    background-color: black;
+    border: 2px dotted red;
+ }
+
+ /* 7. Direct child */
+ u > i{
+    color: aqua;
+    background-color: black;
+    border: 2px dotted red;
+ }
+
+ h5{
+    color: aqua;
+    background-color: black;
+    border: 2px dotted red;
+ }
+
+ h6{
+    border: 2px solid black;
+    background-color: blue;
+    padding: 20px 35px 50px 20px;
+    margin: 20px 30px 40px 50px;
+ }

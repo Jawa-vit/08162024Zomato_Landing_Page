@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Video, Audio, iFrame And Semantic Tags </title>
+        <style>
+            h3{
+                background-color: black; 
+                color: white;
+            }
+        </style>
+        <link rel="stylesheet" href="./Day-3(CSS).css"/>
+    </head>
+    <body>
+        <h2> Video is displayed </h2>
+        <video controls autoplay loop width="400" height="350">
+            <source src="Sample.mp4" type="Vidio/mh4" />
+            Hey, How are you?
+        </video>
+        <video controls autoplay loop width="400" height="350">
+            <source src="Sample.mp4" type="Vidio/mh4" />
+            Hey, How are you?
+        </video>
+        <audio controls autoplay loop>
+            <source src="https://youtu.be/1_SjgZgR7W4?si=gz060AW3YY5zz9WR" type="audio/mh3">
+        </audio>
+        <audio controls autoplay loop>
+            <source src="https://youtu.be/1_SjgZgR7W4?si=gz060AW3YY5zz9WR" type="audio/mh3">
+        </audio>
+
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/1_SjgZgR7W4?si=mtcsFARGAzAqLVwk" 
+        title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; 
+        gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" 
+        allowfullscreen></iframe>
+        <br/>
+        <br/>
+        <hr/>
+        <h3> Semantic tags </h3>
+        <aside>
+            <header>
+                <h2> This is the main topic </h2>
+                <p> This is the sub-topic </p>
+            </header>
+        </aside>
+        <section>
+            <h4> Understanding how to design forms efficiently is a key step in enhancing user experience, 
+                and I'm excited to see how these skills will integrate into larger projects. </h4>
+                <h4> Looking forward to continuing this learning journey and sharing more updates along the way! </h4>
+        </section>
+
+        <!--pattern attribute-->
+
+        <input type="text" pattern="^[a-z0-9]+@[a-z0-9]+/.[a-z]$" />
+        <br/>
+        <br/>
+        <hr/>
+        <h2> INTRODUCTION TO CSS </h2>
+        <!--There are three different ways where we can add CSS into HTML
+                    >>1. In line CSS
+                    >>2. Internal / embedded CSS
+                    >>3. External CSS
+        -->
+        <!--Inline CSS-->
+        <h3 style="background-color: black; color: white;"> Let's print inline CSS </h3>
+        <!--Interline CSS-->
+        <h3> Let's print Interline / embedded CSS </h3>
+    </body>
+</html>

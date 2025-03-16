@@ -1,0 +1,77 @@
+/* 1. Static 
+      >> Its by default
+      >> Hey i just don't wanna fight with anyone else(elements), i will just
+      occupy some empty space
+*/
+
+div{
+    position: static;
+    color: white;
+    background-color: black;
+    border: 2px solid red;
+}
+
+/* 2. Relative:
+      >> Its relative to its original position/static/default position
+      >> offset (top, right, bottom, left)
+*/
+
+div{
+    position: relative;
+    color: white;
+    background-color: black;
+    border: 2px solid red;
+    top: 15px;
+    left: 10px;
+}
+
+/* 3. Fixed:
+     >> here the hightlighted section will be fixed ti 
+     a specific position even on scrolling either of the direction
+*/
+
+.position{
+    position: fixed;
+    color: white;
+    background-color: black;
+    border: 2px solid red;
+    top: 15px;
+    left: 10px;
+}
+
+/* 4. Absolute 
+    >> It should always have a parent
+    >> The parent should be of position: relative
+    >> The offsets value are with respect to the
+    parent not with respect to the entire UI
+*/
+
+#parent{
+    position: relative;
+    height: 250px;
+    width: 250px;
+    border: 2px dashed black;
+}
+
+.position{
+    position: absolute;
+    color: white;
+    background-color: black;
+    border: 2px solid red;
+    top: 30px;
+    left: 50px;
+}
+
+/* 5. Sticky 
+     >> It will be scrolled to certain extenet and later it
+     just get fixed or sticked to the position
+*/
+
+.position{
+    position: sticky;
+    color: white;
+    background-color: black;
+    border: 2px solid red;
+    top: 20px;
+    left: 50px;
+}

@@ -1,0 +1,57 @@
+.parent{
+    background-color: black;
+    display: flex;
+    /* row, row-reverse, column, column-reverse */
+    flex-direction: row;
+    gap: 10px;
+    /* row: flex-start, flex-end, center, space-around, space-between, space-evenly */
+    justify-content: flex-start;
+
+    /* column: flex-start, flex-end, center, stretch */
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.child{
+    height: 100px;
+    /* width: 100px */
+    flex: 1;
+    background-color: white;
+    border: 2px solid red;
+    /* margin-right: 10px */
+}
+
+.child2{
+    height: 100px;
+    /* width: 200px */
+    flex: 2;
+    background-color: white;
+    border: 2px solid red;
+    /* margin-right: 10px */
+}
+
+
+/* Animations */
+button{
+    background-color: black;
+    color: white;
+    margin: 20px;
+    padding: 10px;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    /* TRANSITION PROPERTIES */
+    transition-delay: 250px;
+    transition-duration: 500px;
+    transition-property: background-color color;
+    /* learn, ease, ease-in, ease-out, ease-in-out all */
+    
+    /* OR */
+
+    transition-timing-function: all color 250px 500px ;
+}
+
+button:hover{
+    background-color: aqua;
+    color: black;
+    cursor: pointer;
+}

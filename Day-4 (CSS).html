@@ -1,0 +1,80 @@
+ <!--CSS SELECTOR
+            << 1. Universal selector(*)
+            << 2. ID Selector(#)
+            << 3. Class selector(.)
+            << 4. Element selector
+            << 5. Selector list
+            << 6. Descendant selection
+            << 7. Direct child selection
+        -->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> CSS SELECTOR </title>
+        <link rel="stylesheet" href="./Day-4(css).css"/>
+        <style>
+            h5{
+                color: aqua;
+                background-color: black;
+            }
+        </style>
+    </head>
+    <body>
+    
+        <h2 class="h2css"> I am working on CSS SELECTOR1</h2>
+        <h2> I am working on CSS SELECTOR2</h2>
+        <h2 id="h2SELECTOR3"> I am working on CSS SELECTOR3</h2>
+        <h2> I am working on CSS SELECTOR4</h2>
+
+       <p> Hey i am here! </p>
+       <p> Hey i am here! </p>
+    
+<ol>
+<li><a> link 1 </a></li>
+<li><a> link 2 </a></li>
+<li> link 3 </li>
+<li> link 4 </li>
+</ol>
+
+     <a> link 5 </a>
+
+     <h4>
+        hey this is my outer h1
+        <b> hey its within h1 and its bold in nature but not intalics
+            <u>
+                <i> hey its bold in natire at the same time its italica namture</i>
+            </u>
+        </b>
+        <i> hey its bold in nature but its italic in nature </i>
+     </h4>
+
+     <h5 style="color: aqua; background-color: black;"> 
+        Hey let's add inline, internal and external </h5>
+
+        <!-- BOX  MODEL-->
+         <h6> hey this element depicts us about something
+            called BOX MODEL </h6>
+    </body>
+</html>
+
+<!--
+     Inline > External > internal
+     (<link rel="stylesheet" href="./Day-4(css).css"/>
+        <style>
+            h5{
+                color: aqua;
+                background-color: black;
+            }
+        </style>)
+
+    Incline > internal > External'
+    (
+        <style>
+            h5{
+                color: aqua;
+                background-color: black;
+            }
+        </style>
+        <link rel="stylesheet" href="./Day-4(css).css"/>
+        )
+-->
